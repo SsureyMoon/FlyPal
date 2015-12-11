@@ -1,0 +1,1 @@
+web: gunicorn fly_pal.wsgi:application --log-file -
